@@ -1,0 +1,103 @@
+
+.database{
+    margin: 0px;
+    padding: 25px;
+    color:white;
+    background-color:blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    
+}
+.student{
+    margin: 0px;
+    padding: 30px;
+    color: gray;
+    font-size: 30px;
+    
+}
+
+.list th{
+    padding: 79px;
+    text-align: center;
+    border: 2px hidden green;
+    font-size: 30px;
+    background-color:transparent;
+}
+
+
+
+.list{
+    text-align: center;
+    margin: 0px auto;
+    font-size: 18px;
+   
+}
+
+
+label{
+    margin: 10px 5px;
+    padding: 250px;
+}
+
+input[type=text] {
+    text-align: center;
+    width:20%;
+    padding: 1%;
+    margin: 1%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+    
+    
+}
+
+input[type=submit]{
+    width: 10%;
+    background-color:green;
+    color:white;
+    padding: 14px 20px;
+    text-align: center;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=reset]{
+    width: 10%;
+    background-color:red;
+    color:white;
+    padding: 14px 20px;
+    text-align: center;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form div.form-action-buttons{
+    text-align: center;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    color:white;
+    padding: 15px;
+    margin-right: 4px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    background-color: blue;
+}
+a:hover{
+    color: brown;
+}
+label.validation-error{
+    color:   red;
+    margin: 0px auto;
+}
+
+.hide{
+    display:none;
+}
